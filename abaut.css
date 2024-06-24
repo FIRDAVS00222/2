@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  /* Header Styles  */
+  
+  header {
+    z-index: 10;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #f3d7b7;
+  }
+  
+  .header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header-right a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .header-right a:hover {
+    color: red;
+  }
+/* hero styles   */
+.hero {
+    height: 800px;
+    background-color: #f3d7b7;
+    padding: 100px 0;
+    padding-top: 200px;
+  }
+  
+  .hero-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  
+   h1 {
+    font-size: 54px;
+  }
+  
+  .hero-left p {
+    color: gray;
+    line-height: 24px;
+    margin: 30px 0;
+  }
+  .hero-right {
+    margin-right: -50px;
+    position: relative;
+  }
+  
+  .hero-right .img2 {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+  }
+  /* our style */
+  .our-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.our-right h2{
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+.link{
+  background-color:  #C99B67;
+  height: 510px;
+  
+}
+.our-right p{
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.link-parent{
+    position: relative;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+  .link-left h2{
+    font-size: 50px;
+  }
+  .link-left p{
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .link-left{
+    color:white;
+    margin-top: 150px;
+    
+  }
+  .link-right{
+    position: absolute;
+    right: -100px;
+    top: -250px;
+    right: 25px;
+  }
+  .link-right img{
+    width: 552px;
+  }
+  footer {
+    background-color: #f3d7b7;
+  }
+  
+  .footer-parent {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
